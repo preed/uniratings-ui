@@ -1,0 +1,113 @@
+<html>
+<head>
+<title>Statistical Terms and Concepts</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="white">
+<center>
+<table border="1" cellpadding="2" cellspacing="1" width="90%">
+<tr>
+<td align="center" width="15%"><font size="+2"><b>Statistic</b></font></td>
+<td align="center" width="40%"><font size="+2"><b>Definition</b></font></td>
+<td align="center" width="45%"><font size="+2"><b>Explanation</b></font></td>
+</tr>
+<tr>
+<td align="center" valign="top"><b>Mean</b></td>
+<td valign="top">Standard arithmetic average;<br>(a<sub>1</sub> + a<sub>2</sub> + ... + a<sub>n</sub>)/n</font></td>
+<td>
+The mean is the standard statistic we all know and love, and the one which
+is used on the professor evaluation pages. Surprisingly, it's not a very good
+"summary statistic" because it gives equal weights to every evaluation. But, 
+it's what we use most commonly because it's how <i>we're</i> graded as
+students and it's a statistic everyone knows and understands.</td>
+</tr>
+<td align="center" valign="top"><b>Median</b></td>
+<td valign="top">
+The "center" value of the ordered data set. If we were looking
+at 7 evaluations and put the scores students gave those professors in order for
+those 7 evaluations, the median values would come from the third evaluation.
+</td>
+<td>
+A better summary statistic to provide the center of a distribution of values.
+Only moderately applicable to the way professors are rated, though beacuse the
+majority of distributions found here are multi-model (i.e. they have numerous
+centers), and the spread of values can be so small, especially when done
+with only a few evaluations.
+<p>
+When compared to the mean, the median <i>can</i> give some indication of the
+direction and degree of <i>skew</i> in the distribution. That is: if the
+median is above the average, the distribution favors higher values, and if
+the median is below the mean, more students answered the questions negatively,
+with lower scores.
+<p>
+Keep this idea of skew and center in mind when evaluating the <i>spread</i>
+of values.
+</td>
+</tr>
+<td align="center" valign="top"><b>Mode</b></td>
+<td valign="top">
+The most common answer found in the data set.
+<p>
+As a very simple example: if 1 person gave a professor an 'F', 2 people, a 'D',
+4 people a 'C', 10 people a 'B' and 4 people an 'A', the mode would be a grade
+of 'B'.  The scores are given as their numerical values, so 0 is an F and 
+4 is an A.
+<p>
+In the case of a tie, the higher 'grade' is picked.
+</td>
+<td>
+Not extremely useful for any statistical purpose, but it does given an idea
+of what the majority of your peers thought of this professor in the various
+areas they were ranked in.
+</td>
+</tr>
+<td align="center" valign="top"><b>Standard Deviation</b></td>
+<td valign="top">
+Measures the spread of the values in a uniform distribution.
+<p>
+The numerical value given assumes the distribution of values is uniform
+(which it most likely isn't), and then calculates the <i>deviation</i>
+of values in the distribution from the center. Generally, the higher the
+number, the larger the range of grades students gave a particular professor.
+<p>
+The numerical value indicates what percentage of answers fall within
+a +/- range of it. About 68% of all answers will fall in between one
+standard deviation from the center, about 95% will fall in between two
+standard deviations, and about 99.7% will fall in between three standard
+deviations.
+<p>
+A simple example: if the center of a professor's grade is 3.2 with a standard
+deviation of 0.5, then about 68% of students rating this professor rated
+them in between a 2.7 and a 3.7; about 95% of them rated the professor 
+somewhere in between a 2.2 and a 4.0 (would be a 4.2, but 4.0 is the highest
+rating).
+</td>
+<td>
+The standard deviation is included to give some idea of the spread, but its
+use is flawed in a number of very serious ways. First of all, the concept
+of a standard deviation is based upon a uniform distribution, which these
+scores most certainly are not.
+<p>
+Secondly, standard deviations work with values that are a distance away from
+a center of a distribution of values. But what's our center in this data?
+Typically, the median is used as a center, but if the median and the mean 
+don't match, then the distribution is skewed and the standard deviation is
+meaningless <i>anyway</i>. So, for our purposes, either the median or the
+mean <i>could</i> be used, but both are inherently incorrect, unless they're
+basically equal to each other. We recommend using the mean as a basis for
+the center value.
+<p>
+Finally, standard deviations work best on large sets of data with many varied
+possible values. That's not the case with here. Often
+times, data is based on a few evaluations, and there's a finite set of
+values that are possible in terms of rating a professor (the positive,
+real integers). This limits the standard deviation's effectiveness to 
+accurately describe spread (we really should be using quartiles to describe 
+spread, which we may add as a feature at some point).
+</td>
+</tr>
+
+</table>
+</center>
+</body>
+</html>

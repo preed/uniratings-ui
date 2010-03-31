@@ -1,0 +1,251 @@
+IMG {
+   border-color:#000099;
+}
+TH {
+   font-size:10pt;
+   font-family:Arial,Helvetica,sans-serif;
+}
+
+TD {
+   font-size:10pt;
+   font-family:Arial,Helvetica,sans-serif;
+}
+
+B {
+   font-size:10pt;
+   font-family:Arial,Helvetica,sans-serif;
+}
+
+.smtxt {
+   font-size:8pt;
+   font-family:Arial,Helvetica,sans-serif;
+}
+
+.mdtxt {
+   font-size:10pt;
+   font-family:Arial,Helvetica,sans-serif;
+}
+
+.ftmdtxt {
+   font-size:10pt;
+   color:#ffffff;
+   font-family:Arial,Helvetica,sans-serif;
+}
+
+.lgtxt {
+   font-size:12pt;
+   font-family:Arial,Helvetica,sans-serif;
+}
+
+.flgtxt {
+   font-size:12pt;
+   color:#003366;
+   font-family:Arial,Helvetica,sans-serif;
+}
+
+.title {
+   font-size:24pt;
+   font-family:Arial,Helvetica,sans-serif;
+}
+
+.pgtitle {
+   font-size:12pt;
+   color:#003366;
+}
+
+.bdbrg {
+   font-weight:bold;
+   color:#990000;
+}
+
+.bdbrg2 {
+   font-size:12pt;
+   font-weight:bold;
+   color:#990000;
+}
+
+.tabon {
+   background:#FFCC00;
+}
+
+.nav {
+   color:White;
+   background:#003366;
+}
+
+A.nav {
+   color:#ffffff;
+   text-decoration:none;
+}
+
+A.nav:Visited {
+   color:#ffffff;
+   text-decoration:none;
+}
+
+A.nav:Active {
+   color:#1f9bdb;
+   text-decoration:none;
+}
+
+A.nav:Hover {
+   color:#1f9bdb;
+   text-decoration:none;
+}
+
+A.novis {
+   color:#000099;
+}
+
+A.novis:Visited {
+   color:#000099;
+}
+
+A.novis:Active {
+   color:Red;
+}
+
+A.novis:Hover {
+   color:DodgerBlue;
+}
+
+.bb {
+   font-size:12pt;
+   font-weight:bold;
+}
+
+A.bb {
+   color:#003366;
+   text-decoration:none;
+}
+
+A.bb:Visited {
+   color:#003366;
+   text-decoration:none;
+}
+
+A.bb:Active {
+   color:Red;
+   text-decoration:none;
+}
+
+A.bb:Hover {
+   color:#1f9bdb;
+   text-decoration:underline;
+}
+
+A.nav2 {
+   color:White;
+   text-decoration:none;
+}
+
+A.nav2:Visited {
+   color:White;
+}
+
+A.nav2:Active {
+   color:Red;
+}
+
+A.nav2:Hover {
+   color:White;
+   text-decoration:underline;
+}
+
+th.nav2 {
+   color:White;
+   background:#003366;
+   text-align:center;
+}
+
+A.evallink {
+   color:#000000;
+   text-decoration:none;
+}
+
+A.evallink:Visited {
+   color:#000000;
+   text-decoration:none;
+}
+
+A.evallink:Active {
+   color:Red;
+   text-decoration:none;
+}
+
+A.evallink:Hover {
+   color:#000000;
+   text-decoration:underline;
+}
+
+A.blknav {
+   color:#1f9bdb;
+   text-decoration:none;
+}
+
+A.blknav:Visited {
+   color:#1f9bdb;
+   text-decoration:none;
+}
+
+A.blknav:Active {
+   color:Blue;
+   text-decoration:none;
+}
+
+A.blknav:Hover {
+   color:#1f9bdb;
+   text-decoration:underline;
+}
+
+
+A.name {
+   color:#003366;
+   text-decoration:none;
+}
+
+A.name:Visited {
+   color:#003366;
+   text-decoration:none;
+}
+
+
+A.link {
+   color:#ffffff;
+   text-decoration:none;
+}
+
+A.link:Visited {
+   color:#ffffff;
+   text-decoration:none;
+}
+
+A.link:Active {
+   color:Red;
+   text-decoration:none;
+}
+
+A.link:Hover {
+   color:#1f9bdb;
+   text-decoration:underline;
+}
+
+A.name {
+   color:#003366;
+   text-decoration:none;
+}
+
+A.name:Visited {
+   color:#003366;
+   text-decoration:none;
+}
+
+A.name:Active {
+   color:Red;
+   text-decoration:none;
+}
+
+A.name:Hover {
+   color:#000000;
+   text-decoration:underline;
+}
